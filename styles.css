@@ -21,7 +21,7 @@ body {
     padding-top: 50px;
 }
 
-header .container {
+header.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,3 +36,16 @@ header ul{
     list-style-type: none;
 }
 
+li{
+    font-size: 18px;
+    display: inline;
+}
+header li a{
+    text-decoration: none;
+}
+header nav a{
+    color: #6b7280;
+}
+a:hover{
+    color: #5A67D8;
+}
