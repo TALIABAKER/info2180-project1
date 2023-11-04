@@ -49,3 +49,60 @@ header nav a{
 a:hover{
     color: #5A67D8;
 }
+
+/*Hero Overview Section*/
+.overview-hero{
+    background-color: #E2E8F0 ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.overview-hero .container{
+    display: flex;
+}
+.overview-hero .container img{
+    width: 350px; height: 250px;
+    float: left;
+}
+.overview-hero-text {
+    max-width: 500px;
+    padding-top: 40px;
+}
+
+/* Learn-about Section */
+.learn-about .container {
+    padding: 40px 0 70px;
+}
+
+.learn-about h2, .learn-about .card-body h3 {
+    color: #48BB78;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+}
+
+.learn-about .card-body h3 {
+    font-size: 21px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.card img {
+    margin: 0 auto;
+    height: 240px;
+    width: 100%;
+}
+
+.card {
+    border: 2px solid #E2E8F0;
+    box-shadow: 5px 5px #E2E8F0;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    padding-left: 10px;
+}
+
