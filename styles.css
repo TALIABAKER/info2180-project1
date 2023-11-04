@@ -106,3 +106,31 @@ a:hover{
     padding-left: 10px;
 }
 
+/* COVID-19 Testing Section */
+.testing {
+    background-color: #4A5568;
+    padding: 60px 0;
+    display: grid;
+}
+
+.testing .container {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.testing .cta a {
+    background-color: #48BB78;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.testing-description h2, .testing .testing-description p {
+    color: white;
+}
+
+.testing .testing-description p {
+    max-width: 550px;
+}
