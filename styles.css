@@ -134,3 +134,58 @@ a:hover{
 .testing .testing-description p {
     max-width: 550px;
 }
+
+/* Recent Stories Section */
+article {
+    display: flex;
+}
+
+.stories img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px 50px;
+    float: left;
+}
+
+.stories h2 {
+    color: #48BB78;
+}
+
+.stories .container .article-body p a {
+    color: #5A67D8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.newsletter {
+    color: white;
+    background-color: #48BB78;
+    padding: 20px 0 80px;
+    text-align: center;
+}
+
+.form-group {
+    display: inline-block;
+}
+
+.newsletter p {
+    max-width: 450px;
+    justify-self: center;
+}
+
+.newsletter button, .newsletter .container .submit .btn {
+    background-color: #5A67D8;
+    padding: 5px 30px;
+    color: white;
+}
+
+/*Footer Section*/
+footer{
+    background-color: #4A5568;
+}
+footer p{
+    color: white;
+}
+
+    
